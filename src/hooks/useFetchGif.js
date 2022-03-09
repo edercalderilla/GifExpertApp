@@ -18,7 +18,7 @@ const [state, setstate] = useState({
         
         
         
-    })
+    },[category])
 
     return state;   
 
